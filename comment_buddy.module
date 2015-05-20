@@ -1,0 +1,11 @@
+<?php
+
+    function comment_buddy_comment_update() {
+        drupal_set_message("Comment Edited!");
+    }
+    function comment_buddy_comment_insert() {
+        drupal_set_message("Comment Added!");
+    }
+    function comment_buddy_comment_delete() {
+        drupal_set_message("Comment Deleted!");
+    }
